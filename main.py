@@ -31,7 +31,7 @@ with open('config.ini','r') as file:
 #变量从字典里取值
 sessdata = str(Dict['sessdata'])
 pushtoken = str(Dict['pushtoken'])
-#登录及签到逻辑
+#登录及签到，推送逻辑
 print(NowTime+"[INFO]读取配置文件成功。")
 def main_handler(event, context):
     pushplusURL = "https://www.pushplus.plus/"
